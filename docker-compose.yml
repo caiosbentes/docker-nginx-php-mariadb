@@ -50,7 +50,7 @@ services:
         container_name: node
         restart: always
         ports:
-            - "3030:3000"
+            - "7000:7000"
         links:
             - "mariadb:mariadb"
         depends_on:
